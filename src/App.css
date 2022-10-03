@@ -1,0 +1,20 @@
+:root{ 
+  --white:#fff;
+  --yellow:#F8CF44; 
+
+
+}
+
+p{
+  font-family: 'Open Sans', sans-serif; 
+
+}
+h1{ 
+  font-family: 'Open Sans', sans-serif;
+}
+
+.flex__center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

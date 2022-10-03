@@ -1,0 +1,187 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  overflow-x: hidden;
+}
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  height: auto;
+  max-width: 100%;
+}
+.home-container {
+  background-image:  url("../../public/images/hero.png") ;
+  background-repeat:no-repeat;
+  width: 100%;
+  height:80vh;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+
+  
+  justify-content: space-between;
+}
+
+.home-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
+  margin-left: 50px;  
+  padding: 0;
+  white-space: nowrap;
+
+}
+
+.home-header p {
+    margin-block-end: 0.5;
+    margin-block-start: 0.5;
+  font-size: 20px;
+  color: white;
+}
+.home-header h1 {
+    margin-block-end: 1rem;
+    margin-block-start: 1rem;
+  font-size: 45px;
+  color: white;
+}
+
+.home-header_overlay {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 0;
+  left: 0;
+  
+}
+.home-header_overlay img {
+  object-fit:fit;
+}
+.home-header_img {
+  position: absolute;
+  top: 100px;
+  left: 200px;
+
+}
+
+.home-notice-container {
+  
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
+}
+.home-reviews,
+.home-gluten,
+.home-dairy {
+  margin: 1rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.home-reviews-img,
+.home-gluten-img,
+.home-dairy-img {
+  height: 60px;
+}
+
+@media screen and (max-width: 1320px) {
+  .home-header_img {
+    top: 100px;
+    left: 60px;
+  }
+
+  .home-header_img img {
+    width: 80%;
+  }
+
+  .home-header { 
+    white-space: nowrap;
+  } 
+  .home-header p {
+    font-size: 20px;
+  }
+  .home-header h1 {
+    font-size: 35px;
+    color: #f8cf44;
+  }
+  .home-header_overlay {
+    margin-top: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 600px;
+   
+  }
+ 
+}
+
+
+@media screen and (max-width: 1000px) {
+  .home-container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .home-header {
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem;
+    padding: 0 2rem;
+  }
+  .home-header_overlay {
+    float: none;
+    display: flex;
+  }
+  .home-header_overlay img {
+    height: 80%;
+    width: auto;
+  }
+ .home-header_img{
+  position: absolute; 
+left: 50%;
+transform: translateX(-50%)
+ }
+  .home-header_img img {
+    width: 400px;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .home-reviews,
+  .home-gluten,
+  .home-dairy {
+    margin: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 200px;
+    padding: 50px 0;
+  }
+
+  .home-reviews-img,
+  .home-gluten-img,
+  .home-dairy-img {
+    height: 60px;
+  }
+ 
+  .home-header_img img {
+    width: 380px;
+    height: auto;
+
+  }
+}
