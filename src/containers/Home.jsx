@@ -6,7 +6,7 @@ function Home() {
     <div className="home" id="home">
       <div className="home-container">
         <div className="home-header">
-          <p classname="home-p1">IT'S A GOOD DAY TO HAVE,</p>
+          <p className="home-p1">IT'S A GOOD DAY TO HAVE,</p>
           <h1 className="home-h1"> A CACHAPA!</h1>
           {/* <p className="home-p2">
             Bringing Venezuelan food and culture to New York City

@@ -61,6 +61,7 @@
     margin-bottom: 20px; 
     text-align: flex-start;
     resize: none;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .catering-submit-button{
@@ -118,7 +119,7 @@
  
   border: #ffff;
 }
-.catering-comments-input input{ 
+.catering-comments-input textarea{ 
   width: 320px;
   height: 150px;
   

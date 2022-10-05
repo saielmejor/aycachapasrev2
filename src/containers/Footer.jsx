@@ -6,7 +6,7 @@ function Footer() {
       <section className="footer-section">
       <small className="website-rights">
             {" "}
-            Copyright <i class="fa-regular fa-copyright"></i> 2022-Aycachapas
+            Copyright <i className="fa-regular fa-copyright"></i> 2022-Aycachapas
           </small>
           <p>aycachapas@gmail.com</p>
         </section>{" "}

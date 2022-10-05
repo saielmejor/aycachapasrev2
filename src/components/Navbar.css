@@ -11,12 +11,12 @@
 .navbar-logo {
   display: block;
   justify-content: start;
-  align-items: center;
-  margin-left: 50px;
+  align-items: flex-start;
+  margin-left: 20px;
 }
 
 .navbar-logo img {
-  height: 100px;
+  height: 80px;
   width: auto;
 }
 
@@ -112,5 +112,15 @@
 
   .navbar-logo {
     justify-content: center;
+    align-items: center;
+   
   }
+}
+@media screen and (max-width:450px) {
+  .navbar-logo img {
+    height: 60px;
+    width: auto;
+    
+  }
+  
 }
